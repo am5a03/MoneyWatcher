@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/spendingText"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="@string/spending" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/btnAddItem"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:text="Add"
+                />
+            <Button 
+                android:id="@+id/btnStats"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:text="Statistics"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/btnSetting"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:text="Settings"
+                />
+            <Button
+                android:id="@+id/btnSearch" 
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:text="Search"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/btnTest1"
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:text="b1"
+                android:onClick="b1Action"
+                />
+            <Button
+                android:id="@+id/btnTest2" 
+                android:layout_height="120dp"
+                android:layout_width="120dp"
+                android:text="b2"
+                android:onClick="b2Action"
+                />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

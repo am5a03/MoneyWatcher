@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.MyTheme.ActionBar" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.MW.ActionBarStyle</item>
+    </style>
+
+    <style name="Widget.MW.ActionBarStyle" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">#0099cc</item>
+        <item name="android:background">#0099cc</item>
+    </style>
+
+    <style name="MW.Red" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ff4444</item>
+    </style>
+
+    <style name="MW.Green" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#99cc00</item>
+    </style>
+
+    <style name="MW.ActionTheme" parent="Theme.Sherlock.Light">
+        <item name="actionModeCloseDrawable">@drawable/navigation_cancel</item>
+        <item name="android:actionModeCloseDrawable">@drawable/navigation_cancel</item>
+    </style>
+
+</resources>

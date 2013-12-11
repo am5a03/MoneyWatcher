@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <PreferenceCategory android:title="Activation" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkbox1"
+            android:title="Title1" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Option1" >
+        <PreferenceScreen android:title="Set Option" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="checkboxOption1"
+                android:summary="text"
+                android:title="ENABLE OPTION" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="checkboxDisplay1"
+                android:summary="text"
+                android:title="DISPLAY OPTIONS" >
+            </CheckBoxPreference>
+
+            <EditTextPreference
+                android:name="Option2"
+                android:defaultValue="1"
+                android:key="editOption2"
+                android:summary="text"
+                android:title="OPTION2" >
+            </EditTextPreference>
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="checkboxOption3"
+                android:summary="text"
+                android:title="OPTION3" >
+            </CheckBoxPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Option4" >
+        <PreferenceScreen android:title="Set Option4" >
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="checkboxOption4"
+                android:summary=""
+                android:title="OPTION4" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="checkboxOption5"
+                android:summary="text"
+                android:title="OPTION5" >
+            </CheckBoxPreference>
+
+            <EditTextPreference
+                android:name="Option6"
+                android:defaultValue="1"
+                android:key="editOption6"
+                android:summary="text"
+                android:title="OPTION6" >
+            </EditTextPreference>
+            <EditTextPreference
+                android:name="Option7"
+                android:defaultValue="1"
+                android:key="editOption7"
+                android:summary="text"
+                android:title="OPTION7" >
+            </EditTextPreference>
+            <EditTextPreference
+                android:name="Option8"
+                android:defaultValue="1"
+                android:key="editOption8"
+                android:summary="text"
+                android:title="OPTION8" >
+            </EditTextPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="OPTION9" >
+        <PreferenceScreen android:title="Option9" >
+            <EditTextPreference
+                android:name="Option9"
+                android:defaultValue=""
+                android:key="editOption9"
+                android:summary="text"
+                android:title="Option9" >
+            </EditTextPreference>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

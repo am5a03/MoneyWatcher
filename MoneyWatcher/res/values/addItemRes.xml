@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="selectCategory">Select a category</string>
+    <string name="selectTag">Select tags</string>
+    <string name="addNewItem">Add New Item?</string>
+    <string name="addNewTag">Add a new tag</string>
+    <string name="addNewCat">Add a new category</string>
+    
+
+</resources>
